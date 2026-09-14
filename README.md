@@ -65,7 +65,6 @@ The system follows the following workflow:
 10. Web Deployment using Flask
 
 
-🤖 Models Used
 
 Current Web Application Models
 
