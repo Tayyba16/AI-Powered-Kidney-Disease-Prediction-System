@@ -3,7 +3,7 @@ AI-Powered Kidney Disease Prediction System
 An intelligent Flask-based web application for real-time Chronic Kidney Disease (CKD) prediction and CKD stage classification using advanced Machine Learning techniques.
 
 
-📌 Overview
+Overview
 
 Chronic Kidney Disease (CKD) is a progressive medical condition in which the kidneys gradually lose their ability to function effectively. Since CKD often develops silently without noticeable symptoms, early diagnosis is critical to prevent severe complications such as cardiovascular diseases and end-stage renal failure.
 
@@ -11,34 +11,34 @@ Traditional diagnostic approaches primarily rely on clinical indicators such as 
 
 To address this challenge, this project presents an AI-powered diagnostic framework capable of:
 
-* Predicting whether a patient has CKD or not.
-* Determining the severity stage of CKD (Stage 1–5).
-* Providing real-time predictions through an interactive web interface.
-* Supporting both manual patient data entry and batch file predictions.
+ Predicting whether a patient has CKD or not.
+ Determining the severity stage of CKD (Stage 1–5).
+ Providing real-time predictions through an interactive web interface.
+ Supporting both manual patient data entry and batch file predictions.
 
 
 
 ✨ Key Features
 
-✅ Real-time CKD prediction using Machine Learning
+Real-time CKD prediction using Machine Learning
 
-✅ Binary classification (**CKD / No CKD**)
+Binary classification (CKD / No CKD)
 
-✅ Multiclass classification (**CKD Stage 1–5**)
+Multiclass classification (CKD Stage 1–5)
 
-✅ User-friendly Flask web interface
+User-friendly Flask web interface
 
-✅ Manual patient record prediction
+Manual patient record prediction
 
-✅ Batch prediction using CSV files
+Batch prediction using CSV files
 
-✅ Prediction history storage using SQLite database
+Prediction history storage using SQLite database
 
-✅ Interactive visualization charts
+Interactive visualization charts
 
-✅ Responsive frontend design
+Responsive frontend design
 
-✅ Fast and lightweight deployment
+Fast and lightweight deployment
 
 
 
@@ -69,25 +69,17 @@ The system follows the following workflow:
 
 Current Web Application Models
 
-| Task                                                 | Model    |
-| ---------------------------------------------------- | -------- |
-| CKD Prediction (Binary Classification)               | LightGBM |
-| CKD Stage Classification (Multiclass Classification) | LightGBM |
+Task                                                 | Model    
+CKD Prediction (Binary Classification)               | LightGBM 
+CKD Stage Classification (Multiclass Classification) | LightGBM
 
 Research Models Evaluated
 
-* TabNet
-* LightGBM
-* XGBoost
-* TabPFN
-* CatBoost
-
-Future Deep Learning Models for Kidney Stone Detection
-
-* Inception-v4
-* ResNet152V2
-* DiET-B Transformer
-* MedFuse DenseNet-Tiny
+TabNet
+LightGBM
+XGBoost
+TabPFN
+CatBoost
 
 
 📊 Dataset Information
@@ -96,55 +88,55 @@ The system was developed using a healthcare dataset containing clinical paramete
 
 Important features include:
 
-* Serum Creatinine
-* GFR
-* BUN
-* Serum Calcium
-* ANA
-* C3/C4
-* Hematuria
-* Oxalate Levels
-* Urine pH
-* Blood Pressure
-* Physical Activity
-* Diet
-* Water Intake
-* Smoking
-* Alcohol Consumption
-* Family History
-* Stress Level
+1. Serum Creatinine
+2. GFR
+3. BUN
+4. Serum Calcium
+5. ANA
+6. C3/C4
+6. Hematuria
+7. Oxalate Levels
+8. Urine pH
+9. Blood Pressure
+10. Physical Activity
+11. Diet
+12. Water Intake
+13. Smoking
+14. Alcohol Consumption
+15. Family History
+16. Stress Level
 
 
 🛠️ Technology Stack
 
 Backend
 
-* Python
-* Flask
-* SQLite
+ Python
+ Flask
+ SQLite
 
 Machine Learning
 
-* LightGBM
-* Scikit-learn
-* Pandas
-* NumPy
+ LightGBM
+ Scikit-learn
+ Pandas
+ NumPy
 
 Frontend
 
-* HTML5
-* CSS3
-* Bootstrap
-* Jinja2 Templates
+ HTML5
+ CSS3
+ Bootstrap
+ Jinja2 Templates
 
 Data Visualization
 
-* Matplotlib
+ Matplotlib
 
 Version Control
 
-* Git
-* GitHub
+ Git
+ GitHub
 
 
 📂 Project Structure
@@ -175,7 +167,7 @@ Prerequisites
 
 
 
-### Step 1: Clone the Repository
+Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/Tayyba16/AI-Powered-Kidney-Disease-Prediction-System.git
@@ -196,21 +188,15 @@ Activate environment:
 
 Windows
 
-```bash
 venv\Scripts\activate
-```
 
 Step 3: Install Dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
 Step 4: Run the Application
 
-```bash
 python app.py
-```
 
 Step 5: Open in Browser
 
@@ -248,27 +234,26 @@ The proposed framework integrates advanced Machine Learning algorithms to improv
 
 🚀 Future Enhancements
 
-* Kidney Stone Detection using Deep Learning
-* Medical Image Analysis (CT, MRI, Ultrasound)
-* Doctor Recommendation Module
-* Explainable AI (XAI)
-* Cloud Deployment
-* User Authentication and Authorization
-* REST API Integration
+ Kidney Stone Detection using Deep Learning
+ Medical Image Analysis (CT, MRI, Ultrasound)
+ Doctor Recommendation Module
+ Explainable AI (XAI)
+ Cloud Deployment
+ User Authentication and Authorization
+ REST API Integration
 
 
 👩‍💻 Author
 
 Tayyba Ghulam Fareed
 
-Email: [tayybaghulamfareed@gmail.com](mailto:tayybaghulamfareed@gmail.com)
+Email: tayybaghulamfareed@gmail.com
 
 GitHub: https://github.com/Tayyba16
 
 ⭐ Support
 
 If you find this project useful, please consider giving it a star ⭐ on GitHub.
-
 
 
 📜 License
